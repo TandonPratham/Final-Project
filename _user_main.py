@@ -24,7 +24,7 @@ def choise():
             print(file.read())
             file.close()        
         except:
-            print("Please order first")
+            print("Please order first if you are using the app for the first time")
             choise()
 
     # For Updating The Profile
