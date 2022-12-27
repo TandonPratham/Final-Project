@@ -23,6 +23,7 @@ def choise():
             file = open("Order.txt",'r+')
             print(file.read())
             file.close()        
+            choise()
         except:
             print("Please order first if you are using the app for the first time")
             choise()
